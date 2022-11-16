@@ -4,7 +4,9 @@ public class MyClassOne {
 
     private Object MyAttributeOne;
 
-
+    public MyClassOne(Object myAttributeOne) {
+        MyAttributeOne = myAttributeOne;
+    }
 
     public Object getMyAttributeOne() {
         return MyAttributeOne;
